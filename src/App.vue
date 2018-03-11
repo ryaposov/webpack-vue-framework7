@@ -6,7 +6,7 @@
 		url="/"
 		id="main-view"
 		name="main-view"
-		:pushState="!$native"
+		:pushState="true"
 		pushStateSeparator=""
 		:pushStateOnLoad="true"
 		:pushStateAnimate="false"
