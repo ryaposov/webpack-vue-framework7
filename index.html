@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <title>My Awesome App</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/static/favicons/manifest.json">
+	<link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#00aaff">
+	<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <%= htmlWebpackPlugin.options.cordova || '' %>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
